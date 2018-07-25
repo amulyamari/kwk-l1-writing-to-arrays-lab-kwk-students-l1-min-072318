@@ -5,7 +5,7 @@ def change_rainbow_arrays
   rainbow_colors[2]="red"
   rainbow_colors.push ("green")
   rainbow_colors.push("blue")
-  return rainbow_colors
+  puts rainbow_colors
 end
 change_rainbow_arrays
  
