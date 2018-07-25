@@ -1,11 +1,11 @@
-def rainbow_arrays
-  change_rainbow_colors=["yellow", "default", "light_cyan"]
-  change_rainbow_colors[0]="light_yellow"
-  change_rainbow_colors[1]="light_red"
-  change_rainbow_colors[2]="red"
-  change_rainbow_colors.push ("green")
-  change_rainbow_colors.push("blue")
-  puts change_rainbow_colors
+def change_rainbow_arrays
+  rainbow_colors=["yellow", "default", "light_cyan"]
+  rainbow_colors[0]="light_yellow"
+  rainbow_colors[1]="light_red"
+  rainbow_colors[2]="red"
+  rainbow_colors.push ("green")
+  rainbow_colors.push("blue")
+  puts rainbow_colors
 end
-rainbow_arrays
+change_rainbow_arrays
  
